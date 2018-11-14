@@ -1,0 +1,134 @@
+.centerPage {
+    margin-top: 204px;
+    font-size: 36px;
+}
+
+.centerPage p {
+    margin-bottom: 0;
+    line-height: 47px;
+}
+
+.centerPage .next i {
+    color: #50e3c2;
+    font-size: 56px;
+    margin-top: 72px;
+    margin-bottom: 100px;
+}
+
+.backToTop {
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.workPanel {
+    display: flex;
+    text-align: left;
+    margin-bottom: 298px;
+}
+
+.workPanel h4 {
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 28px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.workPanel h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: -2px;
+}
+
+.workPanel h6 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.workPanel.right {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.workPanel .content {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0 2px;
+}
+
+.workPanel .content .seeCaseStudy {
+    font-size: 20px;
+}
+
+.workPanel .content a::after {
+    height: 10%;
+}
+
+.workPanel.right .content {
+    align-items: flex-end;
+}
+
+.workPanel .image {
+    height: 400px;
+    width: 653px;
+}
+
+.gd1 {
+    height: 400px;
+    width: 653px;
+    background-image: -webkit-linear-gradient(225deg, #8279c7, #4b4495);
+    background-image: linear-gradient(225deg, #8279c7, #4b4495);
+}
+
+.gd1 img {
+    position: relative;
+    left: 20px;
+    top: 100px;
+}
+
+.gd2 {
+    height: 400px;
+    width: 653px;
+    background-image: -webkit-linear-gradient(top, #c5c38b, #3f7972);
+    background-image: linear-gradient(180deg, #c5c38b, #3f7972);
+}
+
+.gd2 img {
+    position: relative;
+    left: -60px;
+    top: 40px;
+}
+
+.gd3 {
+    height: 400px;
+    width: 653px;
+    background-image: -webkit-radial-gradient(65% 50%, circle, rgba(0, 0, 0, 0.49), black 50%);
+    background-image: radial-gradient(circle at 65% 50%, rgba(0, 0, 0, 0.49), black 50%);
+}
+
+.gd3 img {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gd4 {
+    height: 400px;
+    width: 653px;
+    background-image: -webkit-radial-gradient(circle, #0d0c11, #2a38a0);
+    background-image: radial-gradient(circle, #0d0c11, #2a38a0);
+}
+
+.gd4 img {
+    position: relative;
+    left: -50px;
+    top: 80px;
+}
